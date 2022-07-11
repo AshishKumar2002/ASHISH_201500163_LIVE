@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#tittle
+{
+    width: 100%;
+    background-image: url("music4.png");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar
+{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+.logo
+{
+    color:white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu
+{
+    width: 500px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover
+{
+    color: #ff7200;
+}
+.active {
+   color: #ff7200;
+   text-decoration: underline;
+  }
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:#fff;
+    position: relative;
+}
+h1
+{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 20px; 
+  }
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .button1 {
+    background-color:#FA5396; 
+    color:white; 
+   
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background:transparent; 
+    color: white ;
+    border: 2px solid;
+   
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  .foot
+  {
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+  }
